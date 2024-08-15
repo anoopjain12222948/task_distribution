@@ -1,0 +1,63 @@
+[
+{
+    "model": "task_distribution_app.project",
+    "pk": 1,
+    "fields": {
+        "title": "P1",
+        "status": "CREATED",
+        "start_date": "2023-03-27",
+        "end_date": "2023-03-27"
+    }
+},
+{
+    "model": "task_distribution_app.resource",
+    "pk": 1,
+    "fields": {
+        "name": "R1",
+        "busy_days_count": 0,
+        "skills": "[\"S1\", \"S2\", \"S3\"]"
+    }
+},
+{
+    "model": "task_distribution_app.task",
+    "pk": 1,
+    "fields": {
+        "title": "T1",
+        "project": 1,
+        "start_date": "2023-03-27",
+        "end_date": "2023-03-27",
+        "skill_required": "[\"S1\"]",
+        "resource": null,
+        "status": "CREATED",
+        "priority": "LOW"
+    }
+},
+{
+    "model": "task_distribution_app.task",
+    "pk": 2,
+    "fields": {
+        "title": "T2",
+        "project": 1,
+        "start_date": "2023-03-27",
+        "end_date": "2023-03-27",
+        "skill_required": "[\"S1\", \"S2\"]",
+        "resource": null,
+        "status": "CREATED",
+        "priority": "LOW"
+    }
+},
+{
+    "model": "task_distribution_app.task",
+    "pk": 3,
+    "fields": {
+        "title": "T3",
+        "project": 1,
+        "start_date": "2023-03-27",
+        "end_date": "2023-03-27",
+        "skill_required": "[\"S4\"]",
+        "resource": null,
+        "status": "CREATED",
+        "priority": "LOW"
+    }
+}
+]

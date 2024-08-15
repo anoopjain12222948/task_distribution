@@ -1,0 +1,47 @@
+[
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 1,
+    "fields": {
+      "name": "R1",
+      "busy_days_count": 0,
+      "skills": "[\"S1\", \"S2\", \"S3\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 2,
+    "fields": {
+      "name": "R2",
+      "busy_days_count": 0,
+      "skills": "[\"S1\", \"S2\", \"S3\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 3,
+    "fields": {
+      "name": "R3",
+      "busy_days_count": 0,
+      "skills": "[\"S1\", \"S2\", \"S3\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 4,
+    "fields": {
+      "name": "R4",
+      "busy_days_count": 0,
+      "skills": "[\"S1\", \"S2\", \"S3\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 5,
+    "fields": {
+      "name": "R5",
+      "busy_days_count": 0,
+      "skills": "[\"S11\", \"S22\", \"S33\"]"
+    }
+  }
+]

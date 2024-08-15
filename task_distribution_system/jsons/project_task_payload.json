@@ -1,0 +1,694 @@
+{
+  "projects": [
+    {
+      "title": "Project Alpha",
+      "status": "CREATED",
+      "description": "This is a sample project Alpha.",
+      "start_date": "2024-08-01",
+      "end_date": "2024-12-31",
+      "tasks": [
+        {
+          "title": "Task 1",
+          "description": "First task of Project Alpha.",
+          "start_date": "2024-08-01",
+          "end_date": "2024-08-04",
+          "skill_required": [
+            "Python"
+          ],
+          "priority": "HIGH",
+          "status": "CREATED",
+          "due_date": "2024-08-04"
+        },
+        {
+          "title": "Task 2",
+          "description": "Second task of Project Alpha.",
+          "start_date": "2024-08-05",
+          "end_date": "2024-08-09",
+          "skill_required": [
+            "Java"
+          ],
+          "priority": "MEDIUM",
+          "status": "CREATED",
+          "due_date": "2024-08-09"
+        },
+        {
+          "title": "Task 3",
+          "description": "Third task of Project Alpha.",
+          "start_date": "2024-08-10",
+          "end_date": "2024-08-13",
+          "skill_required": [
+            "JavaScript"
+          ],
+          "priority": "LOW",
+          "status": "CREATED",
+          "due_date": "2024-08-13"
+        },
+        {
+          "title": "Task 4",
+          "description": "Fourth task of Project Alpha.",
+          "start_date": "2024-08-14",
+          "end_date": "2024-08-18",
+          "skill_required": [
+            "SQL"
+          ],
+          "priority": "MEDIUM",
+          "status": "CREATED",
+          "due_date": "2024-08-18"
+        },
+        {
+          "title": "Task 5",
+          "description": "Fifth task of Project Alpha.",
+          "start_date": "2024-08-19",
+          "end_date": "2024-08-22",
+          "skill_required": [
+            "HTML"
+          ],
+          "priority": "HIGH",
+          "status": "CREATED",
+          "due_date": "2024-08-22"
+        }
+      ]
+    },
+    {
+      "title": "Project Beta",
+      "status": "CREATED",
+      "description": "This is a sample project Beta.",
+      "start_date": "2024-09-01",
+      "end_date": "2024-11-30",
+      "tasks": [
+        {
+          "title": "Task 1",
+          "description": "First task of Project Beta.",
+          "start_date": "2024-09-01",
+          "end_date": "2024-09-04",
+          "skill_required": [
+            "Node.js"
+          ],
+          "priority": "LOW",
+          "status": "CREATED",
+          "due_date": "2024-09-04"
+        },
+        {
+          "title": "Task 2",
+          "description": "Second task of Project Beta.",
+          "start_date": "2024-09-05",
+          "end_date": "2024-09-09",
+          "skill_required": [
+            "React"
+          ],
+          "priority": "HIGH",
+          "status": "CREATED",
+          "due_date": "2024-09-09"
+        },
+        {
+          "title": "Task 3",
+          "description": "Third task of Project Beta.",
+          "start_date": "2024-09-10",
+          "end_date": "2024-09-13",
+          "skill_required": [
+            "Python"
+          ],
+          "priority": "MEDIUM",
+          "status": "CREATED",
+          "due_date": "2024-09-13"
+        },
+        {
+          "title": "Task 4",
+          "description": "Fourth task of Project Beta.",
+          "start_date": "2024-09-14",
+          "end_date": "2024-09-18",
+          "skill_required": [
+            "Django"
+          ],
+          "priority": "LOW",
+          "status": "CREATED",
+          "due_date": "2024-09-18"
+        },
+        {
+          "title": "Task 5",
+          "description": "Fifth task of Project Beta.",
+          "start_date": "2024-09-19",
+          "end_date": "2024-09-23",
+          "skill_required": [
+            "Angular"
+          ],
+          "priority": "HIGH",
+          "status": "CREATED",
+          "due_date": "2024-09-23"
+        }
+      ]
+    },
+    {
+      "title": "Project Gamma",
+      "status": "CREATED",
+      "description": "This is a sample project Gamma.",
+      "start_date": "2024-10-01",
+      "end_date": "2024-12-01",
+      "tasks": [
+        {
+          "title": "Task 1",
+          "description": "First task of Project Gamma.",
+          "start_date": "2024-10-01",
+          "end_date": "2024-10-05",
+          "skill_required": [
+            "C++"
+          ],
+          "priority": "MEDIUM",
+          "status": "CREATED",
+          "due_date": "2024-10-05"
+        },
+        {
+          "title": "Task 2",
+          "description": "Second task of Project Gamma.",
+          "start_date": "2024-10-06",
+          "end_date": "2024-10-09",
+          "skill_required": [
+            "Go"
+          ],
+          "priority": "HIGH",
+          "status": "CREATED",
+          "due_date": "2024-10-09"
+        },
+        {
+          "title": "Task 3",
+          "description": "Third task of Project Gamma.",
+          "start_date": "2024-10-10",
+          "end_date": "2024-10-13",
+          "skill_required": [
+            "Ruby"
+          ],
+          "priority": "LOW",
+          "status": "CREATED",
+          "due_date": "2024-10-13"
+        },
+        {
+          "title": "Task 4",
+          "description": "Fourth task of Project Gamma.",
+          "start_date": "2024-10-14",
+          "end_date": "2024-10-18",
+          "skill_required": [
+            "PHP"
+          ],
+          "priority": "MEDIUM",
+          "status": "CREATED",
+          "due_date": "2024-10-18"
+        },
+        {
+          "title": "Task 5",
+          "description": "Fifth task of Project Gamma.",
+          "start_date": "2024-10-19",
+          "end_date": "2024-10-22",
+          "skill_required": [
+            "Perl"
+          ],
+          "priority": "HIGH",
+          "status": "CREATED",
+          "due_date": "2024-10-22"
+        }
+      ]
+    },
+    {
+      "title": "Project Delta",
+      "status": "CREATED",
+      "description": "This is a sample project Delta.",
+      "start_date": "2024-11-01",
+      "end_date": "2025-01-31",
+      "tasks": [
+        {
+          "title": "Task 1",
+          "description": "First task of Project Delta.",
+          "start_date": "2024-11-01",
+          "end_date": "2024-11-04",
+          "skill_required": [
+            "Swift"
+          ],
+          "priority": "LOW",
+          "status": "CREATED",
+          "due_date": "2024-11-04"
+        },
+        {
+          "title": "Task 2",
+          "description": "Second task of Project Delta.",
+          "start_date": "2024-11-05",
+          "end_date": "2024-11-09",
+          "skill_required": [
+            "Kotlin"
+          ],
+          "priority": "HIGH",
+          "status": "CREATED",
+          "due_date": "2024-11-09"
+        },
+        {
+          "title": "Task 3",
+          "description": "Third task of Project Delta.",
+          "start_date": "2024-11-10",
+          "end_date": "2024-11-13",
+          "skill_required": [
+            "R"
+          ],
+          "priority": "MEDIUM",
+          "status": "CREATED",
+          "due_date": "2024-11-13"
+        },
+        {
+          "title": "Task 4",
+          "description": "Fourth task of Project Delta.",
+          "start_date": "2024-11-14",
+          "end_date": "2024-11-18",
+          "skill_required": [
+            "Scala"
+          ],
+          "priority": "LOW",
+          "status": "CREATED",
+          "due_date": "2024-11-18"
+        },
+        {
+          "title": "Task 5",
+          "description": "Fifth task of Project Delta.",
+          "start_date": "2024-11-19",
+          "end_date": "2024-11-23",
+          "skill_required": [
+            "Haskell"
+          ],
+          "priority": "HIGH",
+          "status": "CREATED",
+          "due_date": "2024-11-23"
+        }
+      ]
+    },
+    {
+      "title": "Project Epsilon",
+      "status": "CREATED",
+      "description": "This is a sample project Epsilon.",
+      "start_date": "2024-12-01",
+      "end_date": "2025-03-01",
+      "tasks": [
+        {
+          "title": "Task 1",
+          "description": "First task of Project Epsilon.",
+          "start_date": "2024-12-01",
+          "end_date": "2024-12-04",
+          "skill_required": [
+            "Rust"
+          ],
+          "priority": "HIGH",
+          "status": "CREATED",
+          "due_date": "2024-12-04"
+        },
+        {
+          "title": "Task 2",
+          "description": "Second task of Project Epsilon.",
+          "start_date": "2024-12-05",
+          "end_date": "2024-12-09",
+          "skill_required": [
+            "TypeScript"
+          ],
+          "priority": "MEDIUM",
+          "status": "CREATED",
+          "due_date": "2024-12-09"
+        },
+        {
+          "title": "Task 3",
+          "description": "Third task of Project Epsilon.",
+          "start_date": "2024-12-10",
+          "end_date": "2024-12-13",
+          "skill_required": [
+            "C#"
+          ],
+          "priority": "LOW",
+          "status": "CREATED",
+          "due_date": "2024-12-13"
+        },
+        {
+          "title": "Task 4",
+          "description": "Fourth task of Project Epsilon.",
+          "start_date": "2024-12-14",
+          "end_date": "2024-12-18",
+          "skill_required": [
+            "MATLAB"
+          ],
+          "priority": "HIGH",
+          "status": "CREATED",
+          "due_date": "2024-12-18"
+        },
+        {
+          "title": "Task 5",
+          "description": "Fifth task of Project Epsilon.",
+          "start_date": "2024-12-19",
+          "end_date": "2024-12-23",
+          "skill_required": [
+            "Dart"
+          ],
+          "priority": "MEDIUM",
+          "status": "CREATED",
+          "due_date": "2024-12-23"
+        }
+      ]
+    },
+    {
+      "title": "Project Zeta",
+      "status": "CREATED",
+      "description": "This is a sample project Zeta.",
+      "start_date": "2024-07-01",
+      "end_date": "2024-09-30",
+      "tasks": [
+        {
+          "title": "Task 1",
+          "description": "First task of Project Zeta.",
+          "start_date": "2024-07-01",
+          "end_date": "2024-07-04",
+          "skill_required": [
+            "Julia"
+          ],
+          "priority": "MEDIUM",
+          "status": "CREATED",
+          "due_date": "2024-07-04"
+        },
+        {
+          "title": "Task 2",
+          "description": "Second task of Project Zeta.",
+          "start_date": "2024-07-05",
+          "end_date": "2024-07-09",
+          "skill_required": [
+            "F#"
+          ],
+          "priority": "LOW",
+          "status": "CREATED",
+          "due_date": "2024-07-09"
+        },
+        {
+          "title": "Task 3",
+          "description": "Third task of Project Zeta.",
+          "start_date": "2024-07-10",
+          "end_date": "2024-07-13",
+          "skill_required": [
+            "Shell"
+          ],
+          "priority": "HIGH",
+          "status": "CREATED",
+          "due_date": "2024-07-13"
+        },
+        {
+          "title": "Task 4",
+          "description": "Fourth task of Project Zeta.",
+          "start_date": "2024-07-14",
+          "end_date": "2024-07-18",
+          "skill_required": [
+            "PowerShell"
+          ],
+          "priority": "MEDIUM",
+          "status": "CREATED",
+          "due_date": "2024-07-18"
+        },
+        {
+          "title": "Task 5",
+          "description": "Fifth task of Project Zeta.",
+          "start_date": "2024-07-19",
+          "end_date": "2024-07-23",
+          "skill_required": [
+            "VHDL"
+          ],
+          "priority": "HIGH",
+          "status": "CREATED",
+          "due_date": "2024-07-23"
+        }
+      ]
+    },
+    {
+      "title": "Project Eta",
+      "status": "CREATED",
+      "description": "This is a sample project Eta.",
+      "start_date": "2024-06-01",
+      "end_date": "2024-08-31",
+      "tasks": [
+        {
+          "title": "Task 1",
+          "description": "First task of Project Eta.",
+          "start_date": "2024-06-01",
+          "end_date": "2024-06-04",
+          "skill_required": [
+            "Verilog"
+          ],
+          "priority": "LOW",
+          "status": "CREATED",
+          "due_date": "2024-06-04"
+        },
+        {
+          "title": "Task 2",
+          "description": "Second task of Project Eta.",
+          "start_date": "2024-06-05",
+          "end_date": "2024-06-09",
+          "skill_required": [
+            "Lua"
+          ],
+          "priority": "HIGH",
+          "status": "CREATED",
+          "due_date": "2024-06-09"
+        },
+        {
+          "title": "Task 3",
+          "description": "Third task of Project Eta.",
+          "start_date": "2024-06-10",
+          "end_date": "2024-06-13",
+          "skill_required": [
+            "Tcl"
+          ],
+          "priority": "MEDIUM",
+          "status": "CREATED",
+          "due_date": "2024-06-13"
+        },
+        {
+          "title": "Task 4",
+          "description": "Fourth task of Project Eta.",
+          "start_date": "2024-06-14",
+          "end_date": "2024-06-18",
+          "skill_required": [
+            "Scheme"
+          ],
+          "priority": "LOW",
+          "status": "CREATED",
+          "due_date": "2024-06-18"
+        },
+        {
+          "title": "Task 5",
+          "description": "Fifth task of Project Eta.",
+          "start_date": "2024-06-19",
+          "end_date": "2024-06-23",
+          "skill_required": [
+            "Erlang"
+          ],
+          "priority": "HIGH",
+          "status": "CREATED",
+          "due_date": "2024-06-23"
+        }
+      ]
+    },
+    {
+      "title": "Project Theta",
+      "status": "CREATED",
+      "description": "This is a sample project Theta.",
+      "start_date": "2024-05-01",
+      "end_date": "2024-07-31",
+      "tasks": [
+        {
+          "title": "Task 1",
+          "description": "First task of Project Theta.",
+          "start_date": "2024-05-01",
+          "end_date": "2024-05-05",
+          "skill_required": [
+            "HCL"
+          ],
+          "priority": "HIGH",
+          "status": "CREATED",
+          "due_date": "2024-05-05"
+        },
+        {
+          "title": "Task 2",
+          "description": "Second task of Project Theta.",
+          "start_date": "2024-05-06",
+          "end_date": "2024-05-10",
+          "skill_required": [
+            "Clojure"
+          ],
+          "priority": "MEDIUM",
+          "status": "CREATED",
+          "due_date": "2024-05-10"
+        },
+        {
+          "title": "Task 3",
+          "description": "Third task of Project Theta.",
+          "start_date": "2024-05-11",
+          "end_date": "2024-05-15",
+          "skill_required": [
+            "CoffeeScript"
+          ],
+          "priority": "LOW",
+          "status": "CREATED",
+          "due_date": "2024-05-15"
+        },
+        {
+          "title": "Task 4",
+          "description": "Fourth task of Project Theta.",
+          "start_date": "2024-05-16",
+          "end_date": "2024-05-20",
+          "skill_required": [
+            "Elixir"
+          ],
+          "priority": "HIGH",
+          "status": "CREATED",
+          "due_date": "2024-05-20"
+        },
+        {
+          "title": "Task 5",
+          "description": "Fifth task of Project Theta.",
+          "start_date": "2024-05-21",
+          "end_date": "2024-05-25",
+          "skill_required": [
+            "Groovy"
+          ],
+          "priority": "MEDIUM",
+          "status": "CREATED",
+          "due_date": "2024-05-25"
+        }
+      ]
+    },
+    {
+      "title": "Project Iota",
+      "status": "CREATED",
+      "description": "This is a sample project Iota.",
+      "start_date": "2024-04-01",
+      "end_date": "2024-06-30",
+      "tasks": [
+        {
+          "title": "Task 1",
+          "description": "First task of Project Iota.",
+          "start_date": "2024-04-01",
+          "end_date": "2024-04-05",
+          "skill_required": [
+            "OCaml"
+          ],
+          "priority": "LOW",
+          "status": "CREATED",
+          "due_date": "2024-04-05"
+        },
+        {
+          "title": "Task 2",
+          "description": "Second task of Project Iota.",
+          "start_date": "2024-04-06",
+          "end_date": "2024-04-09",
+          "skill_required": [
+            "Elm"
+          ],
+          "priority": "HIGH",
+          "status": "CREATED",
+          "due_date": "2024-04-09"
+        },
+        {
+          "title": "Task 3",
+          "description": "Third task of Project Iota.",
+          "start_date": "2024-04-10",
+          "end_date": "2024-04-13",
+          "skill_required": [
+            "Nim"
+          ],
+          "priority": "MEDIUM",
+          "status": "CREATED",
+          "due_date": "2024-04-13"
+        },
+        {
+          "title": "Task 4",
+          "description": "Fourth task of Project Iota.",
+          "start_date": "2024-04-14",
+          "end_date": "2024-04-18",
+          "skill_required": [
+            "Solidity"
+          ],
+          "priority": "LOW",
+          "status": "CREATED",
+          "due_date": "2024-04-18"
+        },
+        {
+          "title": "Task 5",
+          "description": "Fifth task of Project Iota.",
+          "start_date": "2024-04-19",
+          "end_date": "2024-04-23",
+          "skill_required": [
+            "Vala"
+          ],
+          "priority": "HIGH",
+          "status": "CREATED",
+          "due_date": "2024-04-23"
+        }
+      ]
+    },
+    {
+      "title": "Project Kappa",
+      "status": "CREATED",
+      "description": "This is a sample project Kappa.",
+      "start_date": "2024-03-01",
+      "end_date": "2024-05-31",
+      "tasks": [
+        {
+          "title": "Task 1",
+          "description": "First task of Project Kappa.",
+          "start_date": "2024-03-01",
+          "end_date": "2024-03-04",
+          "skill_required": [
+            "SML"
+          ],
+          "priority": "MEDIUM",
+          "status": "CREATED",
+          "due_date": "2024-03-04"
+        },
+        {
+          "title": "Task 2",
+          "description": "Second task of Project Kappa.",
+          "start_date": "2024-03-05",
+          "end_date": "2024-03-09",
+          "skill_required": [
+            "D"
+          ],
+          "priority": "HIGH",
+          "status": "CREATED",
+          "due_date": "2024-03-09"
+        },
+        {
+          "title": "Task 3",
+          "description": "Third task of Project Kappa.",
+          "start_date": "2024-03-10",
+          "end_date": "2024-03-13",
+          "skill_required": [
+            "Ada"
+          ],
+          "priority": "LOW",
+          "status": "CREATED",
+          "due_date": "2024-03-13"
+        },
+        {
+          "title": "Task 4",
+          "description": "Fourth task of Project Kappa.",
+          "start_date": "2024-03-14",
+          "end_date": "2024-03-18",
+          "skill_required": [
+            "Fortran"
+          ],
+          "priority": "MEDIUM",
+          "status": "CREATED",
+          "due_date": "2024-03-18"
+        },
+        {
+          "title": "Task 5",
+          "description": "Fifth task of Project Kappa.",
+          "start_date": "2024-03-19",
+          "end_date": "2024-03-23",
+          "skill_required": [
+            "Assembly"
+          ],
+          "priority": "HIGH",
+          "status": "CREATED",
+          "due_date": "2024-03-23"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+[
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 1,
+    "fields": {
+      "name": "R1",
+      "busy_days_count": 0,
+      "skills": "[\"Python\", \"Django\", \"JavaScript\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 2,
+    "fields": {
+      "name": "R2",
+      "busy_days_count": 0,
+      "skills": "[\"React\", \"SQL\", \"Database Design\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 3,
+    "fields": {
+      "name": "R3",
+      "busy_days_count": 0,
+      "skills": "[\"Rust\", \"TypeScript\", \"C#\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 4,
+    "fields": {
+      "name": "R4",
+      "busy_days_count": 0,
+      "skills": "[\"MATLAB\", \"Dart\", \"Julia\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 5,
+    "fields": {
+      "name": "R5",
+      "busy_days_count": 0,
+      "skills": "[\"F#\", \"Shell\", \"PowerShell\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 6,
+    "fields": {
+      "name": "R6",
+      "busy_days_count": 0,
+      "skills": "[\"VHDL\", \"Verilog\", \"Lua\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 7,
+    "fields": {
+      "name": "R7",
+      "busy_days_count": 0,
+      "skills": "[\"Tcl\", \"Scheme\", \"Erlang\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 8,
+    "fields": {
+      "name": "R8",
+      "busy_days_count": 0,
+      "skills": "[\"HCL\", \"Clojure\", \"CoffeeScript\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 9,
+    "fields": {
+      "name": "R9",
+      "busy_days_count": 0,
+      "skills": "[\"Elixir\", \"Groovy\", \"OCaml\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 10,
+    "fields": {
+      "name": "R10",
+      "busy_days_count": 0,
+      "skills": "[\"Elm\", \"Nim\", \"Solidity\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 11,
+    "fields": {
+      "name": "R11",
+      "busy_days_count": 0,
+      "skills": "[\"Vala\", \"SML\", \"D\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 12,
+    "fields": {
+      "name": "R12",
+      "busy_days_count": 0,
+      "skills": "[\"Fortran\", \"Assembly\", \"Ada\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 13,
+    "fields": {
+      "name": "R13",
+      "busy_days_count": 0,
+      "skills": "[\"Python\", \"JavaScript\", \"Rust\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 14,
+    "fields": {
+      "name": "R14",
+      "busy_days_count": 0,
+      "skills": "[\"Django\", \"React\", \"TypeScript\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 15,
+    "fields": {
+      "name": "R15",
+      "busy_days_count": 0,
+      "skills": "[\"SQL\", \"Database Design\", \"C#\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 16,
+    "fields": {
+      "name": "R16",
+      "busy_days_count": 0,
+      "skills": "[\"MATLAB\", \"Dart\", \"Julia\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 17,
+    "fields": {
+      "name": "R17",
+      "busy_days_count": 0,
+      "skills": "[\"F#\", \"Shell\", \"PowerShell\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 18,
+    "fields": {
+      "name": "R18",
+      "busy_days_count": 0,
+      "skills": "[\"VHDL\", \"Verilog\", \"Lua\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 19,
+    "fields": {
+      "name": "R19",
+      "busy_days_count": 0,
+      "skills": "[\"Tcl\", \"Scheme\", \"Erlang\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 20,
+    "fields": {
+      "name": "R20",
+      "busy_days_count": 0,
+      "skills": "[\"HCL\", \"Clojure\", \"CoffeeScript\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 21,
+    "fields": {
+      "name": "R21",
+      "busy_days_count": 0,
+      "skills": "[\"Elixir\", \"Groovy\", \"OCaml\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 22,
+    "fields": {
+      "name": "R22",
+      "busy_days_count": 0,
+      "skills": "[\"Elm\", \"Nim\", \"Solidity\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 23,
+    "fields": {
+      "name": "R23",
+      "busy_days_count": 0,
+      "skills": "[\"Vala\", \"SML\", \"D\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 24,
+    "fields": {
+      "name": "R24",
+      "busy_days_count": 0,
+      "skills": "[\"Fortran\", \"Assembly\", \"Ada\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 25,
+    "fields": {
+      "name": "R25",
+      "busy_days_count": 0,
+      "skills": "[\"Python\", \"JavaScript\", \"Rust\", \"Django\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 26,
+    "fields": {
+      "name": "R26",
+      "busy_days_count": 0,
+      "skills": "[\"React\", \"TypeScript\", \"SQL\", \"Database Design\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 27,
+    "fields": {
+      "name": "R27",
+      "busy_days_count": 0,
+      "skills": "[\"C#\", \"MATLAB\", \"Dart\", \"Julia\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 28,
+    "fields": {
+      "name": "R28",
+      "busy_days_count": 0,
+      "skills": "[\"F#\", \"Shell\", \"PowerShell\", \"VHDL\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 29,
+    "fields": {
+      "name": "R29",
+      "busy_days_count": 0,
+      "skills": "[\"Verilog\", \"Lua\", \"Tcl\", \"Scheme\"]"
+    }
+  },
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 30,
+    "fields": {
+      "name": "R30",
+      "busy_days_count": 0,
+      "skills": "[\"Erlang\", \"HCL\", \"Clojure\", \"CoffeeScript\"]"
+    }
+  }
+]

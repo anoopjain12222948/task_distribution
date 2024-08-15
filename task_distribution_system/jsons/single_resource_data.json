@@ -1,0 +1,11 @@
+[
+  {
+    "model": "task_distribution_app.resource",
+    "pk": 1,
+    "fields": {
+      "name": "R1",
+      "busy_days_count": 0,
+      "skills": "[\"S1\", \"S2\", \"S3\"]"
+    }
+  }
+]
