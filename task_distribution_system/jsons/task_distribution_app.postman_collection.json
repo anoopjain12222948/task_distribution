@@ -1,0 +1,341 @@
+{
+	"info": {
+		"_postman_id": "e9d9c7cf-61ec-47f1-a585-5fee353f31fa",
+		"name": "task_distribution_app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27216893"
+	},
+	"item": [
+		{
+			"name": "https://middleware-dev.capriglobal.in/gl-services/user/users/user/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-GB,en-US;q=0.9,en;q=0.8"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "origin",
+						"value": "https://cggl-dev.capriglobal.in"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://cggl-dev.capriglobal.in/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Linux\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"projects\": [\n    {\n      \"title\": \"Project Alpha\",\n      \"status\": \"CREATED\",\n      \"description\": \"This is a sample project Alpha.\",\n      \"start_date\": \"2024-08-01\",\n      \"end_date\": \"2024-12-31\",\n      \"tasks\": [\n        {\n          \"title\": \"Task 1\",\n          \"description\": \"First task of Project Alpha.\",\n          \"start_date\": \"2024-08-01\",\n          \"end_date\": \"2024-08-04\",\n          \"skill_required\": [\n            \"Python\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-08-04\"\n        },\n        {\n          \"title\": \"Task 2\",\n          \"description\": \"Second task of Project Alpha.\",\n          \"start_date\": \"2024-08-05\",\n          \"end_date\": \"2024-08-09\",\n          \"skill_required\": [\n            \"Java\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-08-09\"\n        },\n        {\n          \"title\": \"Task 3\",\n          \"description\": \"Third task of Project Alpha.\",\n          \"start_date\": \"2024-08-10\",\n          \"end_date\": \"2024-08-13\",\n          \"skill_required\": [\n            \"JavaScript\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-08-13\"\n        },\n        {\n          \"title\": \"Task 4\",\n          \"description\": \"Fourth task of Project Alpha.\",\n          \"start_date\": \"2024-08-14\",\n          \"end_date\": \"2024-08-18\",\n          \"skill_required\": [\n            \"SQL\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-08-18\"\n        },\n        {\n          \"title\": \"Task 5\",\n          \"description\": \"Fifth task of Project Alpha.\",\n          \"start_date\": \"2024-08-19\",\n          \"end_date\": \"2024-08-22\",\n          \"skill_required\": [\n            \"HTML\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-08-22\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Project Beta\",\n      \"status\": \"CREATED\",\n      \"description\": \"This is a sample project Beta.\",\n      \"start_date\": \"2024-09-01\",\n      \"end_date\": \"2024-11-30\",\n      \"tasks\": [\n        {\n          \"title\": \"Task 1\",\n          \"description\": \"First task of Project Beta.\",\n          \"start_date\": \"2024-09-01\",\n          \"end_date\": \"2024-09-04\",\n          \"skill_required\": [\n            \"Node.js\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-09-04\"\n        },\n        {\n          \"title\": \"Task 2\",\n          \"description\": \"Second task of Project Beta.\",\n          \"start_date\": \"2024-09-05\",\n          \"end_date\": \"2024-09-09\",\n          \"skill_required\": [\n            \"React\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-09-09\"\n        },\n        {\n          \"title\": \"Task 3\",\n          \"description\": \"Third task of Project Beta.\",\n          \"start_date\": \"2024-09-10\",\n          \"end_date\": \"2024-09-13\",\n          \"skill_required\": [\n            \"Python\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-09-13\"\n        },\n        {\n          \"title\": \"Task 4\",\n          \"description\": \"Fourth task of Project Beta.\",\n          \"start_date\": \"2024-09-14\",\n          \"end_date\": \"2024-09-18\",\n          \"skill_required\": [\n            \"Django\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-09-18\"\n        },\n        {\n          \"title\": \"Task 5\",\n          \"description\": \"Fifth task of Project Beta.\",\n          \"start_date\": \"2024-09-19\",\n          \"end_date\": \"2024-09-23\",\n          \"skill_required\": [\n            \"Angular\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-09-23\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Project Gamma\",\n      \"status\": \"CREATED\",\n      \"description\": \"This is a sample project Gamma.\",\n      \"start_date\": \"2024-10-01\",\n      \"end_date\": \"2024-12-01\",\n      \"tasks\": [\n        {\n          \"title\": \"Task 1\",\n          \"description\": \"First task of Project Gamma.\",\n          \"start_date\": \"2024-10-01\",\n          \"end_date\": \"2024-10-05\",\n          \"skill_required\": [\n            \"C++\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-10-05\"\n        },\n        {\n          \"title\": \"Task 2\",\n          \"description\": \"Second task of Project Gamma.\",\n          \"start_date\": \"2024-10-06\",\n          \"end_date\": \"2024-10-09\",\n          \"skill_required\": [\n            \"Go\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-10-09\"\n        },\n        {\n          \"title\": \"Task 3\",\n          \"description\": \"Third task of Project Gamma.\",\n          \"start_date\": \"2024-10-10\",\n          \"end_date\": \"2024-10-13\",\n          \"skill_required\": [\n            \"Ruby\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-10-13\"\n        },\n        {\n          \"title\": \"Task 4\",\n          \"description\": \"Fourth task of Project Gamma.\",\n          \"start_date\": \"2024-10-14\",\n          \"end_date\": \"2024-10-18\",\n          \"skill_required\": [\n            \"PHP\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-10-18\"\n        },\n        {\n          \"title\": \"Task 5\",\n          \"description\": \"Fifth task of Project Gamma.\",\n          \"start_date\": \"2024-10-19\",\n          \"end_date\": \"2024-10-22\",\n          \"skill_required\": [\n            \"Perl\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-10-22\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Project Delta\",\n      \"status\": \"CREATED\",\n      \"description\": \"This is a sample project Delta.\",\n      \"start_date\": \"2024-11-01\",\n      \"end_date\": \"2025-01-31\",\n      \"tasks\": [\n        {\n          \"title\": \"Task 1\",\n          \"description\": \"First task of Project Delta.\",\n          \"start_date\": \"2024-11-01\",\n          \"end_date\": \"2024-11-04\",\n          \"skill_required\": [\n            \"Swift\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-11-04\"\n        },\n        {\n          \"title\": \"Task 2\",\n          \"description\": \"Second task of Project Delta.\",\n          \"start_date\": \"2024-11-05\",\n          \"end_date\": \"2024-11-09\",\n          \"skill_required\": [\n            \"Kotlin\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-11-09\"\n        },\n        {\n          \"title\": \"Task 3\",\n          \"description\": \"Third task of Project Delta.\",\n          \"start_date\": \"2024-11-10\",\n          \"end_date\": \"2024-11-13\",\n          \"skill_required\": [\n            \"R\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-11-13\"\n        },\n        {\n          \"title\": \"Task 4\",\n          \"description\": \"Fourth task of Project Delta.\",\n          \"start_date\": \"2024-11-14\",\n          \"end_date\": \"2024-11-18\",\n          \"skill_required\": [\n            \"Scala\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-11-18\"\n        },\n        {\n          \"title\": \"Task 5\",\n          \"description\": \"Fifth task of Project Delta.\",\n          \"start_date\": \"2024-11-19\",\n          \"end_date\": \"2024-11-23\",\n          \"skill_required\": [\n            \"Haskell\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-11-23\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Project Epsilon\",\n      \"status\": \"CREATED\",\n      \"description\": \"This is a sample project Epsilon.\",\n      \"start_date\": \"2024-12-01\",\n      \"end_date\": \"2025-03-01\",\n      \"tasks\": [\n        {\n          \"title\": \"Task 1\",\n          \"description\": \"First task of Project Epsilon.\",\n          \"start_date\": \"2024-12-01\",\n          \"end_date\": \"2024-12-04\",\n          \"skill_required\": [\n            \"Rust\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-12-04\"\n        },\n        {\n          \"title\": \"Task 2\",\n          \"description\": \"Second task of Project Epsilon.\",\n          \"start_date\": \"2024-12-05\",\n          \"end_date\": \"2024-12-09\",\n          \"skill_required\": [\n            \"TypeScript\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-12-09\"\n        },\n        {\n          \"title\": \"Task 3\",\n          \"description\": \"Third task of Project Epsilon.\",\n          \"start_date\": \"2024-12-10\",\n          \"end_date\": \"2024-12-13\",\n          \"skill_required\": [\n            \"C#\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-12-13\"\n        },\n        {\n          \"title\": \"Task 4\",\n          \"description\": \"Fourth task of Project Epsilon.\",\n          \"start_date\": \"2024-12-14\",\n          \"end_date\": \"2024-12-18\",\n          \"skill_required\": [\n            \"MATLAB\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-12-18\"\n        },\n        {\n          \"title\": \"Task 5\",\n          \"description\": \"Fifth task of Project Epsilon.\",\n          \"start_date\": \"2024-12-19\",\n          \"end_date\": \"2024-12-23\",\n          \"skill_required\": [\n            \"Dart\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-12-23\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Project Zeta\",\n      \"status\": \"CREATED\",\n      \"description\": \"This is a sample project Zeta.\",\n      \"start_date\": \"2024-07-01\",\n      \"end_date\": \"2024-09-30\",\n      \"tasks\": [\n        {\n          \"title\": \"Task 1\",\n          \"description\": \"First task of Project Zeta.\",\n          \"start_date\": \"2024-07-01\",\n          \"end_date\": \"2024-07-04\",\n          \"skill_required\": [\n            \"Julia\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-07-04\"\n        },\n        {\n          \"title\": \"Task 2\",\n          \"description\": \"Second task of Project Zeta.\",\n          \"start_date\": \"2024-07-05\",\n          \"end_date\": \"2024-07-09\",\n          \"skill_required\": [\n            \"F#\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-07-09\"\n        },\n        {\n          \"title\": \"Task 3\",\n          \"description\": \"Third task of Project Zeta.\",\n          \"start_date\": \"2024-07-10\",\n          \"end_date\": \"2024-07-13\",\n          \"skill_required\": [\n            \"Shell\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-07-13\"\n        },\n        {\n          \"title\": \"Task 4\",\n          \"description\": \"Fourth task of Project Zeta.\",\n          \"start_date\": \"2024-07-14\",\n          \"end_date\": \"2024-07-18\",\n          \"skill_required\": [\n            \"PowerShell\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-07-18\"\n        },\n        {\n          \"title\": \"Task 5\",\n          \"description\": \"Fifth task of Project Zeta.\",\n          \"start_date\": \"2024-07-19\",\n          \"end_date\": \"2024-07-23\",\n          \"skill_required\": [\n            \"VHDL\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-07-23\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Project Eta\",\n      \"status\": \"CREATED\",\n      \"description\": \"This is a sample project Eta.\",\n      \"start_date\": \"2024-06-01\",\n      \"end_date\": \"2024-08-31\",\n      \"tasks\": [\n        {\n          \"title\": \"Task 1\",\n          \"description\": \"First task of Project Eta.\",\n          \"start_date\": \"2024-06-01\",\n          \"end_date\": \"2024-06-04\",\n          \"skill_required\": [\n            \"Verilog\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-06-04\"\n        },\n        {\n          \"title\": \"Task 2\",\n          \"description\": \"Second task of Project Eta.\",\n          \"start_date\": \"2024-06-05\",\n          \"end_date\": \"2024-06-09\",\n          \"skill_required\": [\n            \"Lua\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-06-09\"\n        },\n        {\n          \"title\": \"Task 3\",\n          \"description\": \"Third task of Project Eta.\",\n          \"start_date\": \"2024-06-10\",\n          \"end_date\": \"2024-06-13\",\n          \"skill_required\": [\n            \"Tcl\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-06-13\"\n        },\n        {\n          \"title\": \"Task 4\",\n          \"description\": \"Fourth task of Project Eta.\",\n          \"start_date\": \"2024-06-14\",\n          \"end_date\": \"2024-06-18\",\n          \"skill_required\": [\n            \"Scheme\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-06-18\"\n        },\n        {\n          \"title\": \"Task 5\",\n          \"description\": \"Fifth task of Project Eta.\",\n          \"start_date\": \"2024-06-19\",\n          \"end_date\": \"2024-06-23\",\n          \"skill_required\": [\n            \"Erlang\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-06-23\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Project Theta\",\n      \"status\": \"CREATED\",\n      \"description\": \"This is a sample project Theta.\",\n      \"start_date\": \"2024-05-01\",\n      \"end_date\": \"2024-07-31\",\n      \"tasks\": [\n        {\n          \"title\": \"Task 1\",\n          \"description\": \"First task of Project Theta.\",\n          \"start_date\": \"2024-05-01\",\n          \"end_date\": \"2024-05-05\",\n          \"skill_required\": [\n            \"HCL\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-05-05\"\n        },\n        {\n          \"title\": \"Task 2\",\n          \"description\": \"Second task of Project Theta.\",\n          \"start_date\": \"2024-05-06\",\n          \"end_date\": \"2024-05-10\",\n          \"skill_required\": [\n            \"Clojure\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-05-10\"\n        },\n        {\n          \"title\": \"Task 3\",\n          \"description\": \"Third task of Project Theta.\",\n          \"start_date\": \"2024-05-11\",\n          \"end_date\": \"2024-05-15\",\n          \"skill_required\": [\n            \"CoffeeScript\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-05-15\"\n        },\n        {\n          \"title\": \"Task 4\",\n          \"description\": \"Fourth task of Project Theta.\",\n          \"start_date\": \"2024-05-16\",\n          \"end_date\": \"2024-05-20\",\n          \"skill_required\": [\n            \"Elixir\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-05-20\"\n        },\n        {\n          \"title\": \"Task 5\",\n          \"description\": \"Fifth task of Project Theta.\",\n          \"start_date\": \"2024-05-21\",\n          \"end_date\": \"2024-05-25\",\n          \"skill_required\": [\n            \"Groovy\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-05-25\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Project Iota\",\n      \"status\": \"CREATED\",\n      \"description\": \"This is a sample project Iota.\",\n      \"start_date\": \"2024-04-01\",\n      \"end_date\": \"2024-06-30\",\n      \"tasks\": [\n        {\n          \"title\": \"Task 1\",\n          \"description\": \"First task of Project Iota.\",\n          \"start_date\": \"2024-04-01\",\n          \"end_date\": \"2024-04-05\",\n          \"skill_required\": [\n            \"OCaml\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-04-05\"\n        },\n        {\n          \"title\": \"Task 2\",\n          \"description\": \"Second task of Project Iota.\",\n          \"start_date\": \"2024-04-06\",\n          \"end_date\": \"2024-04-09\",\n          \"skill_required\": [\n            \"Elm\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-04-09\"\n        },\n        {\n          \"title\": \"Task 3\",\n          \"description\": \"Third task of Project Iota.\",\n          \"start_date\": \"2024-04-10\",\n          \"end_date\": \"2024-04-13\",\n          \"skill_required\": [\n            \"Nim\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-04-13\"\n        },\n        {\n          \"title\": \"Task 4\",\n          \"description\": \"Fourth task of Project Iota.\",\n          \"start_date\": \"2024-04-14\",\n          \"end_date\": \"2024-04-18\",\n          \"skill_required\": [\n            \"Solidity\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-04-18\"\n        },\n        {\n          \"title\": \"Task 5\",\n          \"description\": \"Fifth task of Project Iota.\",\n          \"start_date\": \"2024-04-19\",\n          \"end_date\": \"2024-04-23\",\n          \"skill_required\": [\n            \"Vala\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-04-23\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Project Kappa\",\n      \"status\": \"CREATED\",\n      \"description\": \"This is a sample project Kappa.\",\n      \"start_date\": \"2024-03-01\",\n      \"end_date\": \"2024-05-31\",\n      \"tasks\": [\n        {\n          \"title\": \"Task 1\",\n          \"description\": \"First task of Project Kappa.\",\n          \"start_date\": \"2024-03-01\",\n          \"end_date\": \"2024-03-04\",\n          \"skill_required\": [\n            \"SML\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-03-04\"\n        },\n        {\n          \"title\": \"Task 2\",\n          \"description\": \"Second task of Project Kappa.\",\n          \"start_date\": \"2024-03-05\",\n          \"end_date\": \"2024-03-09\",\n          \"skill_required\": [\n            \"D\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-03-09\"\n        },\n        {\n          \"title\": \"Task 3\",\n          \"description\": \"Third task of Project Kappa.\",\n          \"start_date\": \"2024-03-10\",\n          \"end_date\": \"2024-03-13\",\n          \"skill_required\": [\n            \"Ada\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-03-13\"\n        },\n        {\n          \"title\": \"Task 4\",\n          \"description\": \"Fourth task of Project Kappa.\",\n          \"start_date\": \"2024-03-14\",\n          \"end_date\": \"2024-03-18\",\n          \"skill_required\": [\n            \"Fortran\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-03-18\"\n        },\n        {\n          \"title\": \"Task 5\",\n          \"description\": \"Fifth task of Project Kappa.\",\n          \"start_date\": \"2024-03-19\",\n          \"end_date\": \"2024-03-23\",\n          \"skill_required\": [\n            \"Assembly\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-03-23\"\n        }\n      ]\n    }\n  ]\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/task_distribution_app/create_task_new/",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"task_distribution_app",
+						"create_task_new",
+						""
+					]
+				},
+				"description": "Generated from cURL: curl --location 'https://middleware-dev.capriglobal.in/gl-services/user/users/user/login' \\\n--header 'accept: application/json, text/plain, */*' \\\n--header 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' \\\n--header 'content-type: application/json' \\\n--header 'origin: https://cggl-dev.capriglobal.in' \\\n--header 'priority: u=1, i' \\\n--header 'referer: https://cggl-dev.capriglobal.in/' \\\n--header 'sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"' \\\n--header 'sec-ch-ua-mobile: ?0' \\\n--header 'sec-ch-ua-platform: \"Linux\"' \\\n--header 'sec-fetch-dest: empty' \\\n--header 'sec-fetch-mode: cors' \\\n--header 'sec-fetch-site: same-site' \\\n--header 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \\\n--data ''"
+			},
+			"response": []
+		},
+		{
+			"name": "https://middleware-dev.capriglobal.in/gl-services/user/users/user/login Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-GB,en-US;q=0.9,en;q=0.8"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "origin",
+						"value": "https://cggl-dev.capriglobal.in"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://cggl-dev.capriglobal.in/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Linux\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"projects\": [\n    {\n      \"title\": \"Project Alpha\",\n      \"status\": \"CREATED\",\n      \"description\": \"This is a sample project Alpha.\",\n      \"start_date\": \"2024-08-01\",\n      \"end_date\": \"2024-12-31\",\n      \"tasks\": [\n        {\n          \"title\": \"Task 1\",\n          \"description\": \"First task of Project Alpha.\",\n          \"start_date\": \"2024-08-01\",\n          \"end_date\": \"2024-08-04\",\n          \"skill_required\": [\n            \"Python\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-08-04\"\n        },\n        {\n          \"title\": \"Task 2\",\n          \"description\": \"Second task of Project Alpha.\",\n          \"start_date\": \"2024-08-05\",\n          \"end_date\": \"2024-08-09\",\n          \"skill_required\": [\n            \"Java\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-08-09\"\n        },\n        {\n          \"title\": \"Task 3\",\n          \"description\": \"Third task of Project Alpha.\",\n          \"start_date\": \"2024-08-10\",\n          \"end_date\": \"2024-08-13\",\n          \"skill_required\": [\n            \"JavaScript\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-08-13\"\n        },\n        {\n          \"title\": \"Task 4\",\n          \"description\": \"Fourth task of Project Alpha.\",\n          \"start_date\": \"2024-08-14\",\n          \"end_date\": \"2024-08-18\",\n          \"skill_required\": [\n            \"SQL\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-08-18\"\n        },\n        {\n          \"title\": \"Task 5\",\n          \"description\": \"Fifth task of Project Alpha.\",\n          \"start_date\": \"2024-08-19\",\n          \"end_date\": \"2024-08-22\",\n          \"skill_required\": [\n            \"HTML\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-08-22\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Project Beta\",\n      \"status\": \"CREATED\",\n      \"description\": \"This is a sample project Beta.\",\n      \"start_date\": \"2024-09-01\",\n      \"end_date\": \"2024-11-30\",\n      \"tasks\": [\n        {\n          \"title\": \"Task 1\",\n          \"description\": \"First task of Project Beta.\",\n          \"start_date\": \"2024-09-01\",\n          \"end_date\": \"2024-09-04\",\n          \"skill_required\": [\n            \"Node.js\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-09-04\"\n        },\n        {\n          \"title\": \"Task 2\",\n          \"description\": \"Second task of Project Beta.\",\n          \"start_date\": \"2024-09-05\",\n          \"end_date\": \"2024-09-09\",\n          \"skill_required\": [\n            \"React\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-09-09\"\n        },\n        {\n          \"title\": \"Task 3\",\n          \"description\": \"Third task of Project Beta.\",\n          \"start_date\": \"2024-09-10\",\n          \"end_date\": \"2024-09-13\",\n          \"skill_required\": [\n            \"Python\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-09-13\"\n        },\n        {\n          \"title\": \"Task 4\",\n          \"description\": \"Fourth task of Project Beta.\",\n          \"start_date\": \"2024-09-14\",\n          \"end_date\": \"2024-09-18\",\n          \"skill_required\": [\n            \"Django\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-09-18\"\n        },\n        {\n          \"title\": \"Task 5\",\n          \"description\": \"Fifth task of Project Beta.\",\n          \"start_date\": \"2024-09-19\",\n          \"end_date\": \"2024-09-23\",\n          \"skill_required\": [\n            \"Angular\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-09-23\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Project Gamma\",\n      \"status\": \"CREATED\",\n      \"description\": \"This is a sample project Gamma.\",\n      \"start_date\": \"2024-10-01\",\n      \"end_date\": \"2024-12-01\",\n      \"tasks\": [\n        {\n          \"title\": \"Task 1\",\n          \"description\": \"First task of Project Gamma.\",\n          \"start_date\": \"2024-10-01\",\n          \"end_date\": \"2024-10-05\",\n          \"skill_required\": [\n            \"C++\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-10-05\"\n        },\n        {\n          \"title\": \"Task 2\",\n          \"description\": \"Second task of Project Gamma.\",\n          \"start_date\": \"2024-10-06\",\n          \"end_date\": \"2024-10-09\",\n          \"skill_required\": [\n            \"Go\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-10-09\"\n        },\n        {\n          \"title\": \"Task 3\",\n          \"description\": \"Third task of Project Gamma.\",\n          \"start_date\": \"2024-10-10\",\n          \"end_date\": \"2024-10-13\",\n          \"skill_required\": [\n            \"Ruby\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-10-13\"\n        },\n        {\n          \"title\": \"Task 4\",\n          \"description\": \"Fourth task of Project Gamma.\",\n          \"start_date\": \"2024-10-14\",\n          \"end_date\": \"2024-10-18\",\n          \"skill_required\": [\n            \"PHP\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-10-18\"\n        },\n        {\n          \"title\": \"Task 5\",\n          \"description\": \"Fifth task of Project Gamma.\",\n          \"start_date\": \"2024-10-19\",\n          \"end_date\": \"2024-10-22\",\n          \"skill_required\": [\n            \"Perl\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-10-22\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Project Delta\",\n      \"status\": \"CREATED\",\n      \"description\": \"This is a sample project Delta.\",\n      \"start_date\": \"2024-11-01\",\n      \"end_date\": \"2025-01-31\",\n      \"tasks\": [\n        {\n          \"title\": \"Task 1\",\n          \"description\": \"First task of Project Delta.\",\n          \"start_date\": \"2024-11-01\",\n          \"end_date\": \"2024-11-04\",\n          \"skill_required\": [\n            \"Swift\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-11-04\"\n        },\n        {\n          \"title\": \"Task 2\",\n          \"description\": \"Second task of Project Delta.\",\n          \"start_date\": \"2024-11-05\",\n          \"end_date\": \"2024-11-09\",\n          \"skill_required\": [\n            \"Kotlin\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-11-09\"\n        },\n        {\n          \"title\": \"Task 3\",\n          \"description\": \"Third task of Project Delta.\",\n          \"start_date\": \"2024-11-10\",\n          \"end_date\": \"2024-11-13\",\n          \"skill_required\": [\n            \"R\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-11-13\"\n        },\n        {\n          \"title\": \"Task 4\",\n          \"description\": \"Fourth task of Project Delta.\",\n          \"start_date\": \"2024-11-14\",\n          \"end_date\": \"2024-11-18\",\n          \"skill_required\": [\n            \"Scala\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-11-18\"\n        },\n        {\n          \"title\": \"Task 5\",\n          \"description\": \"Fifth task of Project Delta.\",\n          \"start_date\": \"2024-11-19\",\n          \"end_date\": \"2024-11-23\",\n          \"skill_required\": [\n            \"Haskell\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-11-23\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Project Epsilon\",\n      \"status\": \"CREATED\",\n      \"description\": \"This is a sample project Epsilon.\",\n      \"start_date\": \"2024-12-01\",\n      \"end_date\": \"2025-03-01\",\n      \"tasks\": [\n        {\n          \"title\": \"Task 1\",\n          \"description\": \"First task of Project Epsilon.\",\n          \"start_date\": \"2024-12-01\",\n          \"end_date\": \"2024-12-04\",\n          \"skill_required\": [\n            \"Rust\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-12-04\"\n        },\n        {\n          \"title\": \"Task 2\",\n          \"description\": \"Second task of Project Epsilon.\",\n          \"start_date\": \"2024-12-05\",\n          \"end_date\": \"2024-12-09\",\n          \"skill_required\": [\n            \"TypeScript\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-12-09\"\n        },\n        {\n          \"title\": \"Task 3\",\n          \"description\": \"Third task of Project Epsilon.\",\n          \"start_date\": \"2024-12-10\",\n          \"end_date\": \"2024-12-13\",\n          \"skill_required\": [\n            \"C#\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-12-13\"\n        },\n        {\n          \"title\": \"Task 4\",\n          \"description\": \"Fourth task of Project Epsilon.\",\n          \"start_date\": \"2024-12-14\",\n          \"end_date\": \"2024-12-18\",\n          \"skill_required\": [\n            \"MATLAB\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-12-18\"\n        },\n        {\n          \"title\": \"Task 5\",\n          \"description\": \"Fifth task of Project Epsilon.\",\n          \"start_date\": \"2024-12-19\",\n          \"end_date\": \"2024-12-23\",\n          \"skill_required\": [\n            \"Dart\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-12-23\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Project Zeta\",\n      \"status\": \"CREATED\",\n      \"description\": \"This is a sample project Zeta.\",\n      \"start_date\": \"2024-07-01\",\n      \"end_date\": \"2024-09-30\",\n      \"tasks\": [\n        {\n          \"title\": \"Task 1\",\n          \"description\": \"First task of Project Zeta.\",\n          \"start_date\": \"2024-07-01\",\n          \"end_date\": \"2024-07-04\",\n          \"skill_required\": [\n            \"Julia\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-07-04\"\n        },\n        {\n          \"title\": \"Task 2\",\n          \"description\": \"Second task of Project Zeta.\",\n          \"start_date\": \"2024-07-05\",\n          \"end_date\": \"2024-07-09\",\n          \"skill_required\": [\n            \"F#\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-07-09\"\n        },\n        {\n          \"title\": \"Task 3\",\n          \"description\": \"Third task of Project Zeta.\",\n          \"start_date\": \"2024-07-10\",\n          \"end_date\": \"2024-07-13\",\n          \"skill_required\": [\n            \"Shell\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-07-13\"\n        },\n        {\n          \"title\": \"Task 4\",\n          \"description\": \"Fourth task of Project Zeta.\",\n          \"start_date\": \"2024-07-14\",\n          \"end_date\": \"2024-07-18\",\n          \"skill_required\": [\n            \"PowerShell\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-07-18\"\n        },\n        {\n          \"title\": \"Task 5\",\n          \"description\": \"Fifth task of Project Zeta.\",\n          \"start_date\": \"2024-07-19\",\n          \"end_date\": \"2024-07-23\",\n          \"skill_required\": [\n            \"VHDL\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-07-23\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Project Eta\",\n      \"status\": \"CREATED\",\n      \"description\": \"This is a sample project Eta.\",\n      \"start_date\": \"2024-06-01\",\n      \"end_date\": \"2024-08-31\",\n      \"tasks\": [\n        {\n          \"title\": \"Task 1\",\n          \"description\": \"First task of Project Eta.\",\n          \"start_date\": \"2024-06-01\",\n          \"end_date\": \"2024-06-04\",\n          \"skill_required\": [\n            \"Verilog\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-06-04\"\n        },\n        {\n          \"title\": \"Task 2\",\n          \"description\": \"Second task of Project Eta.\",\n          \"start_date\": \"2024-06-05\",\n          \"end_date\": \"2024-06-09\",\n          \"skill_required\": [\n            \"Lua\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-06-09\"\n        },\n        {\n          \"title\": \"Task 3\",\n          \"description\": \"Third task of Project Eta.\",\n          \"start_date\": \"2024-06-10\",\n          \"end_date\": \"2024-06-13\",\n          \"skill_required\": [\n            \"Tcl\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-06-13\"\n        },\n        {\n          \"title\": \"Task 4\",\n          \"description\": \"Fourth task of Project Eta.\",\n          \"start_date\": \"2024-06-14\",\n          \"end_date\": \"2024-06-18\",\n          \"skill_required\": [\n            \"Scheme\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-06-18\"\n        },\n        {\n          \"title\": \"Task 5\",\n          \"description\": \"Fifth task of Project Eta.\",\n          \"start_date\": \"2024-06-19\",\n          \"end_date\": \"2024-06-23\",\n          \"skill_required\": [\n            \"Erlang\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-06-23\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Project Theta\",\n      \"status\": \"CREATED\",\n      \"description\": \"This is a sample project Theta.\",\n      \"start_date\": \"2024-05-01\",\n      \"end_date\": \"2024-07-31\",\n      \"tasks\": [\n        {\n          \"title\": \"Task 1\",\n          \"description\": \"First task of Project Theta.\",\n          \"start_date\": \"2024-05-01\",\n          \"end_date\": \"2024-05-05\",\n          \"skill_required\": [\n            \"HCL\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-05-05\"\n        },\n        {\n          \"title\": \"Task 2\",\n          \"description\": \"Second task of Project Theta.\",\n          \"start_date\": \"2024-05-06\",\n          \"end_date\": \"2024-05-10\",\n          \"skill_required\": [\n            \"Clojure\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-05-10\"\n        },\n        {\n          \"title\": \"Task 3\",\n          \"description\": \"Third task of Project Theta.\",\n          \"start_date\": \"2024-05-11\",\n          \"end_date\": \"2024-05-15\",\n          \"skill_required\": [\n            \"CoffeeScript\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-05-15\"\n        },\n        {\n          \"title\": \"Task 4\",\n          \"description\": \"Fourth task of Project Theta.\",\n          \"start_date\": \"2024-05-16\",\n          \"end_date\": \"2024-05-20\",\n          \"skill_required\": [\n            \"Elixir\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-05-20\"\n        },\n        {\n          \"title\": \"Task 5\",\n          \"description\": \"Fifth task of Project Theta.\",\n          \"start_date\": \"2024-05-21\",\n          \"end_date\": \"2024-05-25\",\n          \"skill_required\": [\n            \"Groovy\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-05-25\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Project Iota\",\n      \"status\": \"CREATED\",\n      \"description\": \"This is a sample project Iota.\",\n      \"start_date\": \"2024-04-01\",\n      \"end_date\": \"2024-06-30\",\n      \"tasks\": [\n        {\n          \"title\": \"Task 1\",\n          \"description\": \"First task of Project Iota.\",\n          \"start_date\": \"2024-04-01\",\n          \"end_date\": \"2024-04-05\",\n          \"skill_required\": [\n            \"OCaml\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-04-05\"\n        },\n        {\n          \"title\": \"Task 2\",\n          \"description\": \"Second task of Project Iota.\",\n          \"start_date\": \"2024-04-06\",\n          \"end_date\": \"2024-04-09\",\n          \"skill_required\": [\n            \"Elm\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-04-09\"\n        },\n        {\n          \"title\": \"Task 3\",\n          \"description\": \"Third task of Project Iota.\",\n          \"start_date\": \"2024-04-10\",\n          \"end_date\": \"2024-04-13\",\n          \"skill_required\": [\n            \"Nim\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-04-13\"\n        },\n        {\n          \"title\": \"Task 4\",\n          \"description\": \"Fourth task of Project Iota.\",\n          \"start_date\": \"2024-04-14\",\n          \"end_date\": \"2024-04-18\",\n          \"skill_required\": [\n            \"Solidity\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-04-18\"\n        },\n        {\n          \"title\": \"Task 5\",\n          \"description\": \"Fifth task of Project Iota.\",\n          \"start_date\": \"2024-04-19\",\n          \"end_date\": \"2024-04-23\",\n          \"skill_required\": [\n            \"Vala\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-04-23\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Project Kappa\",\n      \"status\": \"CREATED\",\n      \"description\": \"This is a sample project Kappa.\",\n      \"start_date\": \"2024-03-01\",\n      \"end_date\": \"2024-05-31\",\n      \"tasks\": [\n        {\n          \"title\": \"Task 1\",\n          \"description\": \"First task of Project Kappa.\",\n          \"start_date\": \"2024-03-01\",\n          \"end_date\": \"2024-03-04\",\n          \"skill_required\": [\n            \"SML\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-03-04\"\n        },\n        {\n          \"title\": \"Task 2\",\n          \"description\": \"Second task of Project Kappa.\",\n          \"start_date\": \"2024-03-05\",\n          \"end_date\": \"2024-03-09\",\n          \"skill_required\": [\n            \"D\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-03-09\"\n        },\n        {\n          \"title\": \"Task 3\",\n          \"description\": \"Third task of Project Kappa.\",\n          \"start_date\": \"2024-03-10\",\n          \"end_date\": \"2024-03-13\",\n          \"skill_required\": [\n            \"Ada\"\n          ],\n          \"priority\": \"LOW\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-03-13\"\n        },\n        {\n          \"title\": \"Task 4\",\n          \"description\": \"Fourth task of Project Kappa.\",\n          \"start_date\": \"2024-03-14\",\n          \"end_date\": \"2024-03-18\",\n          \"skill_required\": [\n            \"Fortran\"\n          ],\n          \"priority\": \"MEDIUM\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-03-18\"\n        },\n        {\n          \"title\": \"Task 5\",\n          \"description\": \"Fifth task of Project Kappa.\",\n          \"start_date\": \"2024-03-19\",\n          \"end_date\": \"2024-03-23\",\n          \"skill_required\": [\n            \"Assembly\"\n          ],\n          \"priority\": \"HIGH\",\n          \"status\": \"CREATED\",\n          \"due_date\": \"2024-03-23\"\n        }\n      ]\n    }\n  ]\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/task_distribution_app/get_all_tasks/",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"task_distribution_app",
+						"get_all_tasks",
+						""
+					]
+				},
+				"description": "Generated from cURL: curl --location 'https://middleware-dev.capriglobal.in/gl-services/user/users/user/login' \\\n--header 'accept: application/json, text/plain, */*' \\\n--header 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' \\\n--header 'content-type: application/json' \\\n--header 'origin: https://cggl-dev.capriglobal.in' \\\n--header 'priority: u=1, i' \\\n--header 'referer: https://cggl-dev.capriglobal.in/' \\\n--header 'sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"' \\\n--header 'sec-ch-ua-mobile: ?0' \\\n--header 'sec-ch-ua-platform: \"Linux\"' \\\n--header 'sec-fetch-dest: empty' \\\n--header 'sec-fetch-mode: cors' \\\n--header 'sec-fetch-site: same-site' \\\n--header 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \\\n--data ''"
+			},
+			"response": []
+		},
+		{
+			"name": "https://middleware-dev.capriglobal.in/gl-services/user/users/user/login Copy 2",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-GB,en-US;q=0.9,en;q=0.8"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "origin",
+						"value": "https://cggl-dev.capriglobal.in"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://cggl-dev.capriglobal.in/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Linux\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"tasks\": [\n        {\n            \"project\": \"Project Alpha\",\n            \"task\": \"Task 1\",\n            \"status\": \"IN_PROGRESS\"\n        },\n        {\n            \"project\": \"Project Beta\",\n            \"task\": \"Task 2\",\n            \"status\": \"IN_PROGRESS\"\n        }\n    ]\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/task_distribution_app/update_task_status/",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"task_distribution_app",
+						"update_task_status",
+						""
+					]
+				},
+				"description": "Generated from cURL: curl --location 'https://middleware-dev.capriglobal.in/gl-services/user/users/user/login' \\\n--header 'accept: application/json, text/plain, */*' \\\n--header 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' \\\n--header 'content-type: application/json' \\\n--header 'origin: https://cggl-dev.capriglobal.in' \\\n--header 'priority: u=1, i' \\\n--header 'referer: https://cggl-dev.capriglobal.in/' \\\n--header 'sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"' \\\n--header 'sec-ch-ua-mobile: ?0' \\\n--header 'sec-ch-ua-platform: \"Linux\"' \\\n--header 'sec-fetch-dest: empty' \\\n--header 'sec-fetch-mode: cors' \\\n--header 'sec-fetch-site: same-site' \\\n--header 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \\\n--data ''"
+			},
+			"response": []
+		},
+		{
+			"name": "https://middleware-dev.capriglobal.in/gl-services/user/users/user/login Copy 3",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-GB,en-US;q=0.9,en;q=0.8"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "origin",
+						"value": "https://cggl-dev.capriglobal.in"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://cggl-dev.capriglobal.in/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Linux\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"project\": \"Project Alpha\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/task_distribution_app/assign_task/",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"task_distribution_app",
+						"assign_task",
+						""
+					]
+				},
+				"description": "Generated from cURL: curl --location 'https://middleware-dev.capriglobal.in/gl-services/user/users/user/login' \\\n--header 'accept: application/json, text/plain, */*' \\\n--header 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' \\\n--header 'content-type: application/json' \\\n--header 'origin: https://cggl-dev.capriglobal.in' \\\n--header 'priority: u=1, i' \\\n--header 'referer: https://cggl-dev.capriglobal.in/' \\\n--header 'sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"' \\\n--header 'sec-ch-ua-mobile: ?0' \\\n--header 'sec-ch-ua-platform: \"Linux\"' \\\n--header 'sec-fetch-dest: empty' \\\n--header 'sec-fetch-mode: cors' \\\n--header 'sec-fetch-site: same-site' \\\n--header 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \\\n--data ''"
+			},
+			"response": []
+		}
+	]
+}
